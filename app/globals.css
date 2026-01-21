@@ -77,23 +77,40 @@ body {
 
 /* React Flow Customization */
 .react-flow__edge-path {
-  stroke: #000;
-  stroke-opacity: 0.3;
-  stroke-width: 2;
+  /* Default styles if no class applied */
+  stroke-width: 1.5;
   stroke-dasharray: 5, 5;
   transition: stroke 0.3s ease, stroke-opacity 0.3s ease, stroke-width 0.3s ease;
 }
 
 .dark .react-flow__edge-path {
-  stroke: #fff;
-  stroke-opacity: 1;
   filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.5));
 }
 
 .react-flow__edge.selected .react-flow__edge-path {
-  stroke: #3b82f6;
-  stroke-opacity: 1;
-  stroke-width: 3;
+  stroke: #3b82f6 !important;
+  stroke-opacity: 1 !important;
+  stroke-width: 3 !important;
+}
+
+/* Explicit Edge Styling Classes */
+.react-flow__edge.edge-default .react-flow__edge-path {
+  stroke: #64748b !important;
+  stroke-opacity: 0.5 !important;
+  stroke-width: 1.5 !important;
+}
+
+.react-flow__edge.edge-main-highlight .react-flow__edge-path {
+  stroke: #f59e0b !important;
+  stroke-opacity: 1 !important;
+  stroke-width: 3 !important;
+  filter: drop-shadow(0 0 3px rgba(245, 158, 11, 0.6));
+}
+
+.react-flow__edge.edge-secondary-highlight .react-flow__edge-path {
+  stroke: #3b82f6 !important;
+  stroke-opacity: 0.8 !important;
+  stroke-width: 2 !important;
 }
 
 .react-flow__controls {
