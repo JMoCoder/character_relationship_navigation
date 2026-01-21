@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.2] - 2026-01-21
+
+### Changed
+- **人物关系数据优化**：根据人物信息矩阵重构关系数据
+  - 从36个节点精简为25个核心人物
+  - 从72条边更新为76条关系边
+  - 关系标签简化为精准描述（如"父女"、"挚友"、"敌→盟"等）
+
+---
+
 ## [1.0.1] - 2026-01-21
 
 ### Mobile Optimization
