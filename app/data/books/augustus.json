@@ -1,0 +1,499 @@
+{
+  "id": "augustus",
+  "title": "奥古斯都",
+  "category": "历史小说",
+  "description": "以书信体形式展现罗马帝国第一位皇帝奥古斯都的一生",
+  "year": "1972",
+  "author": "约翰·威廉斯",
+  "coverColor": "#8B4513",
+  "nodes": [
+    {
+      "id": "奥古斯都",
+      "type": "character",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "奥古斯都",
+        "role": "",
+        "description": ""
+      }
+    },
+    {
+      "id": "尤利娅",
+      "type": "character",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "尤利娅",
+        "role": "",
+        "description": ""
+      }
+    },
+    {
+      "id": "阿格里帕",
+      "type": "character",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "阿格里帕",
+        "role": "",
+        "description": ""
+      }
+    },
+    {
+      "id": "梅塞纳斯",
+      "type": "character",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "梅塞纳斯",
+        "role": "",
+        "description": ""
+      }
+    },
+    {
+      "id": "鲁弗斯",
+      "type": "character",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "鲁弗斯",
+        "role": "",
+        "description": ""
+      }
+    },
+    {
+      "id": "西塞罗",
+      "type": "character",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "西塞罗",
+        "role": "",
+        "description": ""
+      }
+    },
+    {
+      "id": "安东尼",
+      "type": "character",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "安东尼",
+        "role": "",
+        "description": ""
+      }
+    },
+    {
+      "id": "克莉奥帕特拉",
+      "type": "character",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "克莉奥帕特拉",
+        "role": "",
+        "description": ""
+      }
+    },
+    {
+      "id": "布鲁图斯",
+      "type": "character",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "布鲁图斯",
+        "role": "",
+        "description": ""
+      }
+    },
+    {
+      "id": "雷必达",
+      "type": "character",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "雷必达",
+        "role": "",
+        "description": ""
+      }
+    },
+    {
+      "id": "恺撒",
+      "type": "character",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "恺撒",
+        "role": "",
+        "description": ""
+      }
+    },
+    {
+      "id": "李维娅",
+      "type": "character",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "李维娅",
+        "role": "",
+        "description": ""
+      }
+    },
+    {
+      "id": "屋大维娅",
+      "type": "character",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "屋大维娅",
+        "role": "",
+        "description": ""
+      }
+    },
+    {
+      "id": "提比略",
+      "type": "character",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "提比略",
+        "role": "",
+        "description": ""
+      }
+    },
+    {
+      "id": "德鲁苏斯",
+      "type": "character",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "德鲁苏斯",
+        "role": "",
+        "description": ""
+      }
+    },
+    {
+      "id": "马尔凯鲁斯",
+      "type": "character",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "马尔凯鲁斯",
+        "role": "",
+        "description": ""
+      }
+    },
+    {
+      "id": "维吉尔",
+      "type": "character",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "维吉尔",
+        "role": "",
+        "description": ""
+      }
+    },
+    {
+      "id": "贺拉斯",
+      "type": "character",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "贺拉斯",
+        "role": "",
+        "description": ""
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "奥古斯都",
+      "target": "尤利娅",
+      "label": "父女"
+    },
+    {
+      "id": "e1",
+      "source": "奥古斯都",
+      "target": "阿格里帕",
+      "label": "挚友"
+    },
+    {
+      "id": "e2",
+      "source": "奥古斯都",
+      "target": "梅塞纳斯",
+      "label": "挚友"
+    },
+    {
+      "id": "e3",
+      "source": "奥古斯都",
+      "target": "鲁弗斯",
+      "label": "挚友"
+    },
+    {
+      "id": "e4",
+      "source": "奥古斯都",
+      "target": "西塞罗",
+      "label": "敌→盟"
+    },
+    {
+      "id": "e5",
+      "source": "奥古斯都",
+      "target": "安东尼",
+      "label": "盟→敌"
+    },
+    {
+      "id": "e6",
+      "source": "奥古斯都",
+      "target": "克莉奥帕特拉",
+      "label": "敌"
+    },
+    {
+      "id": "e7",
+      "source": "奥古斯都",
+      "target": "布鲁图斯",
+      "label": "敌"
+    },
+    {
+      "id": "e8",
+      "source": "奥古斯都",
+      "target": "雷必达",
+      "label": "盟→弃"
+    },
+    {
+      "id": "e9",
+      "source": "奥古斯都",
+      "target": "恺撒",
+      "label": "养子"
+    },
+    {
+      "id": "e10",
+      "source": "奥古斯都",
+      "target": "李维娅",
+      "label": "夫妻"
+    },
+    {
+      "id": "e11",
+      "source": "奥古斯都",
+      "target": "屋大维娅",
+      "label": "兄妹"
+    },
+    {
+      "id": "e12",
+      "source": "奥古斯都",
+      "target": "提比略",
+      "label": "继父子"
+    },
+    {
+      "id": "e13",
+      "source": "奥古斯都",
+      "target": "德鲁苏斯",
+      "label": "继父子"
+    },
+    {
+      "id": "e14",
+      "source": "奥古斯都",
+      "target": "马尔凯鲁斯",
+      "label": "舅甥"
+    },
+    {
+      "id": "e15",
+      "source": "奥古斯都",
+      "target": "维吉尔",
+      "label": "友"
+    },
+    {
+      "id": "e16",
+      "source": "奥古斯都",
+      "target": "贺拉斯",
+      "label": "友"
+    },
+    {
+      "id": "e17",
+      "source": "尤利娅",
+      "target": "阿格里帕",
+      "label": "夫妻②"
+    },
+    {
+      "id": "e18",
+      "source": "尤利娅",
+      "target": "李维娅",
+      "label": "继母女"
+    },
+    {
+      "id": "e19",
+      "source": "尤利娅",
+      "target": "屋大维娅",
+      "label": "姑侄"
+    },
+    {
+      "id": "e20",
+      "source": "尤利娅",
+      "target": "提比略",
+      "label": "夫妻③"
+    },
+    {
+      "id": "e21",
+      "source": "尤利娅",
+      "target": "马尔凯鲁斯",
+      "label": "夫妻①"
+    },
+    {
+      "id": "e22",
+      "source": "阿格里帕",
+      "target": "梅塞纳斯",
+      "label": "挚友"
+    },
+    {
+      "id": "e23",
+      "source": "阿格里帕",
+      "target": "鲁弗斯",
+      "label": "挚友"
+    },
+    {
+      "id": "e24",
+      "source": "阿格里帕",
+      "target": "安东尼",
+      "label": "敌"
+    },
+    {
+      "id": "e25",
+      "source": "阿格里帕",
+      "target": "提比略",
+      "label": "岳父"
+    },
+    {
+      "id": "e26",
+      "source": "梅塞纳斯",
+      "target": "鲁弗斯",
+      "label": "挚友"
+    },
+    {
+      "id": "e27",
+      "source": "梅塞纳斯",
+      "target": "维吉尔",
+      "label": "保护人"
+    },
+    {
+      "id": "e28",
+      "source": "梅塞纳斯",
+      "target": "贺拉斯",
+      "label": "保护人"
+    },
+    {
+      "id": "e29",
+      "source": "鲁弗斯",
+      "target": "安东尼",
+      "label": "策反"
+    },
+    {
+      "id": "e30",
+      "source": "西塞罗",
+      "target": "安东尼",
+      "label": "敌"
+    },
+    {
+      "id": "e31",
+      "source": "西塞罗",
+      "target": "布鲁图斯",
+      "label": "盟友"
+    },
+    {
+      "id": "e32",
+      "source": "安东尼",
+      "target": "克莉奥帕特拉",
+      "label": "情人"
+    },
+    {
+      "id": "e33",
+      "source": "安东尼",
+      "target": "雷必达",
+      "label": "盟友"
+    },
+    {
+      "id": "e34",
+      "source": "安东尼",
+      "target": "屋大维娅",
+      "label": "前夫妻"
+    },
+    {
+      "id": "e35",
+      "source": "克莉奥帕特拉",
+      "target": "恺撒",
+      "label": "情人"
+    },
+    {
+      "id": "e36",
+      "source": "布鲁图斯",
+      "target": "恺撒",
+      "label": "刺杀者"
+    },
+    {
+      "id": "e37",
+      "source": "李维娅",
+      "target": "提比略",
+      "label": "母子"
+    },
+    {
+      "id": "e38",
+      "source": "李维娅",
+      "target": "德鲁苏斯",
+      "label": "母子"
+    },
+    {
+      "id": "e39",
+      "source": "屋大维娅",
+      "target": "马尔凯鲁斯",
+      "label": "母子"
+    },
+    {
+      "id": "e40",
+      "source": "提比略",
+      "target": "德鲁苏斯",
+      "label": "兄弟"
+    },
+    {
+      "id": "e41",
+      "source": "维吉尔",
+      "target": "贺拉斯",
+      "label": "挚友"
+    }
+  ]
+}

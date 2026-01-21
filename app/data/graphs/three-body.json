@@ -1,0 +1,100 @@
+{
+  "nodes": [
+    {
+      "id": "ye-wenjie",
+      "type": "character",
+      "position": { "x": 0, "y": 0 },
+      "data": {
+        "label": "叶文洁",
+        "role": "ETO统帅",
+        "avatar": "https://api.dicebear.com/7.x/notionists/svg?seed=YeWenjie",
+        "description": "天体物理学家，ETO的精神领袖，向三体文明发送了第一条信息。"
+      }
+    },
+    {
+      "id": "yang-dong",
+      "type": "character",
+      "position": { "x": 0, "y": 200 },
+      "data": {
+        "label": "杨冬",
+        "role": "物理学家",
+        "avatar": "https://api.dicebear.com/7.x/notionists/svg?seed=YangDong",
+        "description": "叶文洁的女儿，发现物理学不存在后自杀。"
+      }
+    },
+    {
+      "id": "ding-yi",
+      "type": "character",
+      "position": { "x": 200, "y": 200 },
+      "data": {
+        "label": "丁仪",
+        "role": "物理学家",
+        "avatar": "https://api.dicebear.com/7.x/notionists/svg?seed=DingYi",
+        "description": "杨冬的未婚夫，宏原子发现者。"
+      }
+    },
+    {
+      "id": "wang-miao",
+      "type": "character",
+      "position": { "x": -200, "y": 100 },
+      "data": {
+        "label": "汪淼",
+        "role": "纳米科学家",
+        "avatar": "https://api.dicebear.com/7.x/notionists/svg?seed=WangMiao",
+        "description": "古筝行动核心人物，研发纳米飞刃。"
+      }
+    },
+    {
+      "id": "shi-qiang",
+      "type": "character",
+      "position": { "x": -200, "y": -100 },
+      "data": {
+        "label": "史强",
+        "role": "警官",
+        "avatar": "https://api.dicebear.com/7.x/notionists/svg?seed=ShiQiang",
+        "description": "粗中有细的刑警，多次拯救汪淼和罗辑。"
+      }
+    },
+    {
+      "id": "mike-evans",
+      "type": "character",
+      "position": { "x": 200, "y": -100 },
+      "data": {
+        "label": "麦克·伊文斯",
+        "role": "ETO实际领导者",
+        "avatar": "https://api.dicebear.com/7.x/notionists/svg?seed=Evans",
+        "description": "物种共产主义者，审判日号拥有者。"
+      }
+    },
+    {
+      "id": "luo-ji",
+      "type": "character",
+      "position": { "x": -400, "y": 0 },
+      "data": {
+        "label": "罗辑",
+        "role": "面壁者",
+        "avatar": "https://api.dicebear.com/7.x/notionists/svg?seed=LuoJi",
+        "description": "宇宙社会学创立者，执剑人。"
+      }
+    },
+    {
+      "id": "zhang-beihai",
+      "type": "character",
+      "position": { "x": 400, "y": 0 },
+      "data": {
+        "label": "章北海",
+        "role": "太空军军官",
+        "avatar": "https://api.dicebear.com/7.x/notionists/svg?seed=ZhangBeihai",
+        "description": "坚定的逃亡主义者，自然选择号舰长。"
+      }
+    }
+  ],
+  "edges": [
+    { "id": "e-ye-yang", "source": "ye-wenjie", "target": "yang-dong", "label": "母女" },
+    { "id": "e-yang-ding", "source": "yang-dong", "target": "ding-yi", "label": "未婚夫妻" },
+    { "id": "e-shi-wang", "source": "shi-qiang", "target": "wang-miao", "label": "搭档/保护" },
+    { "id": "e-ye-evans", "source": "ye-wenjie", "target": "mike-evans", "label": "ETO同志/利用" },
+    { "id": "e-ye-luo", "source": "ye-wenjie", "target": "luo-ji", "label": "启蒙/传授宇宙社会学" },
+    { "id": "e-shi-luo", "source": "shi-qiang", "target": "luo-ji", "label": "保护/挚友" }
+  ]
+}

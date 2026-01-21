@@ -1,0 +1,20 @@
+[
+  {
+    "id": "three-body",
+    "title": "三体",
+    "category": "科幻小说",
+    "description": "地球文明与三体文明的信息交流、生死搏杀及两个文明在宇宙中的兴衰历程。",
+    "year": "2006",
+    "author": "刘慈欣",
+    "coverColor": "#00d2ff"
+  },
+  {
+    "id": "harry-potter",
+    "title": "哈利·波特",
+    "category": "奇幻小说",
+    "description": "一个年轻巫师哈利·波特和他的朋友赫敏·格兰杰、罗恩·韦斯莱在霍格沃茨魔法学校的冒险故事。",
+    "year": "1997",
+    "author": "J.K. 罗琳",
+    "coverColor": "#ffc400"
+  }
+]
