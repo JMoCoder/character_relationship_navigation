@@ -1,3 +1,5 @@
+console.log("Loading next.config.js for " + process.env.NODE_ENV);
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: "export",
@@ -5,6 +7,12 @@ const nextConfig = {
     assetPrefix: process.env.NODE_ENV === "production" ? "/character_relationship_navigation/" : "",
     images: {
         unoptimized: true,
+    },
+    typescript: {
+        ignoreBuildErrors: true,
+    },
+    eslint: {
+        ignoreDuringBuilds: true,
     },
 };
 

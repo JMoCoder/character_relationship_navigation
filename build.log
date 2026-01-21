@@ -1,0 +1,20 @@
+
+> character_relationship_navigation@1.0.0 build
+> next build
+
+Loading next.config.js for production
+⚠ `eslint` configuration in next.config.js is no longer supported. See more info here: https://nextjs.org/docs/app/api-reference/cli/next#next-lint-options
+⚠ Invalid next.config.js options detected: 
+⚠     Unrecognized key(s) in object: 'eslint'
+⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+▲ Next.js 16.1.3 (Turbopack)
+
+  Creating an optimized production build ...
+Loading next.config.js for production
+✓ Compiled successfully in 2.7s
+  Skipping validation of types
+  Collecting page data using 15 workers ...
+
+> Build error occurred
+Error: Page "/work/[id]" is missing "generateStaticParams()" so it cannot be used with "output: export" config.
+    at ignore-listed frames

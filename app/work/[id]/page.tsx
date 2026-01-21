@@ -1,6 +1,13 @@
-import { getWorkById, getGraphData } from "@/app/lib/data";
+import { getWorkById, getGraphData, getWorks } from "@/app/lib/data";
 import { GraphClient } from "./GraphClient";
 import { notFound } from "next/navigation";
+
+export async function generateStaticParams() {
+  const works = await getWorks();
+  return works.map((work) => ({
+    id: work.id,
+  }));
+}
 
 interface PageProps {
   params: Promise<{ id: string }>;
@@ -17,10 +24,10 @@ export default async function WorkPage({ params }: PageProps) {
 
   return (
     <main>
-      <GraphClient 
-        work={work} 
-        initialNodes={graphData.nodes} 
-        initialEdges={graphData.edges} 
+      <GraphClient
+        work={work}
+        initialNodes={graphData.nodes}
+        initialEdges={graphData.edges}
       />
     </main>
   );
