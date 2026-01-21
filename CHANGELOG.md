@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1] - 2026-01-21
+
+### Mobile Optimization
+- **UI**: 针对移动端优化了标题区域的显示逻辑
+  - **缩小字号**：标题从超大字号调整为适配手机的紧凑字号
+  - **隐藏干扰项**：移动端自动隐藏"展开数量/显示节点"等非必要统计信息
+  - **布局调整**：移除了顶部过多留白，避免遮挡画布核心区域
+
+### Fixed
+- **Deployment**: 修复了 GitHub Pages 静态导出的配置问题 (Added generateStaticParams)
+
+---
+
 ## [1.0.0] - 2026-01-21
 
 ### Milestone

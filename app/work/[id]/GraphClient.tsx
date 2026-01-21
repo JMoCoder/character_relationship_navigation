@@ -497,17 +497,17 @@ function GraphClientInner({ work, initialNodes, initialEdges, protagonist }: Gra
             </AnimatePresence>
           </div>
 
-          <div className="text-right pointer-events-auto pr-20 md:pr-0 mt-12 md:mt-0">
+          <div className="text-right pointer-events-auto pr-4 md:pr-0 mt-0">
             {/* eslint-disable-next-line react/forbid-dom-props */}
-            <h1 className="text-4xl font-bold tracking-tight mb-1" style={{ color: work.coverColor }}>
+            <h1 className="text-2xl md:text-4xl font-bold tracking-tight mb-1" style={{ color: work.coverColor }}>
               {work.title}
             </h1>
-            <p className="text-black/40 dark:text-white/40 text-sm font-mono">{work.author} · {work.year}</p>
+            <p className="text-black/40 dark:text-white/40 text-xs md:text-sm font-mono">{work.author} · {work.year}</p>
             <motion.div
               key={mainCharacter}
               initial={{ opacity: 0, y: -5 }}
               animate={{ opacity: 1, y: 0 }}
-              className="text-sm mt-2"
+              className="text-sm mt-2 hidden md:block"
             >
               <span className="text-black/60 dark:text-white/60">
                 主节点: <span className="font-semibold text-amber-600 dark:text-amber-400">{mainCharacter}</span>
