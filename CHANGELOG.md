@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.2] - 2026-01-21
+
+### Changed
+
+- 完善人物数据提取，从 18 人物扩展到 **36 人物**
+- 关系数据从 42 条增加到 **72 条**
+- 优化连接线为直线类型，确保关系标签居中
+- 页面加载自动 fitView 显示全貌
+- 移除左下角操作提示文字
+
+---
+
 ## [0.0.1] - 2026-01-21
 
 ### Added
