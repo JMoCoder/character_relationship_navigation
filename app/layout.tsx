@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nexus | Character Relationship Navigation",
-  description: "An immersive, interactive exploration of character relationships in fiction and film.",
+  title: "人物关系图谱",
+  description: "以书信体形式展现罗马帝国第一位皇帝奥古斯都的一生，探索人物关系网络。",
 };
 
 export default function RootLayout({
